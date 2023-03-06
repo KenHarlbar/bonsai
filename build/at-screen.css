@@ -139,3 +139,9 @@
         font-weight: 800;
     }
 }
+
+@media screen (max-width: 288px) {
+    .workflow-plus .most-popular {
+        top: 3%;
+    }
+}
