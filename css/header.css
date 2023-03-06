@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.body * {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.body {
+    max-width: 100vw;
+    color: #4c4d5f;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 120px;
+    background-color: none;
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #00b289;
+    width: 20%;
+}
+
+.logo i {
+    font-weight: 600;
+}
+
+.logo-text {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.dropdown-content {
+    width: 100%;
+    display: flex;
+}
+
+.links .dropbtn {
+    display: none;
+}
+
+.navigations {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.navigations a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4c4d5f;
+}
+
+.enter {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enter button {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.enter button:hover {
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.enter .login {
+    margin-right: 10px;
+    width: 40%;
+    color: #00b289;
+    border: 1px solid #00b289;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.enter .login:hover {
+    background-color: #00b289;
+    color: #fff;
+}
+
+.enter .signup {
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    background-color: #00b289;
+    color: #fff;
+}
+
+.enter .signup:hover {
+    background-color: #fff;
+    color: #00b289;
+    border: 1px solid #00b289;
+}

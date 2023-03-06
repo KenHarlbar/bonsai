@@ -1,0 +1,39 @@
+.cta {
+    
+}
+
+.container {
+    background-color: #ecfdf9;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .text .container-text {
+    font-size: 1.5em;
+}
+
+.container .text .container-text,
+.container .text .container-text .color {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: initial;
+    font-weight: 100;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.color {
+    color: #00b289;
+    font-size: 1em;
+}
+
+.container .btn button {
+    padding: 20px 60px;
+    text-transform: uppercase;
+    background-color: #00b289;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}

@@ -1,0 +1,198 @@
+.pricing {
+    padding: 60px 120px;
+    max-width: 100%;
+}
+
+.heading {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+
+.pricing-text {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.info {
+    color: #00b289;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.toggle {
+    display: flex;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin: 0 50px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input+.slider {
+    background-color: #00b289;
+}
+
+/* input:checked+.slider {
+    background-color: #00b289;
+} */
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #00b289;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.monthly,
+.yearly {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.yearly {
+    color: #afb1d0;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.workflow {
+    background-color: #fff;
+    box-shadow: 5px 5px 50px 15px #f7f7f8;
+    padding: 30px 60px;
+    border: 1px solid #f3f4fb;
+}
+
+.text {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.dollar {
+    font-size: 30px;
+    font-weight: 400;
+    vertical-align: top;
+}
+
+.number {
+    font-size: 60px;
+    margin: 0 10px 0 5px;
+    font-weight: 600;
+}
+
+.month {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.workflow-hr {
+    border: 0;
+    height: 2px;
+    background-color: #00b289;
+    color: #00b289;
+}
+
+.workflow-list {
+    padding: 30px 0;
+}
+
+.workflow-list i {
+    color: #00b289;
+    font-weight: 600;
+}
+
+.workflow-list li {
+    margin-bottom: 15px;
+}
+
+.workflow .signup {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    background-color: #00b289;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.workflow-plus {
+    position: relative;
+}
+
+.most-popular {
+    position: absolute;
+    background-color: #00b289;
+    color: #fff;
+    padding: 5px 60px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    transform: rotate(45deg);
+    right: -10%;
+    top: 7%;
+    letter-spacing: 3px;
+}
+
+.new {
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: rgb(201, 201, 0);
+    padding: 1px 7px;
+    color: #fff;
+    font-weight: 500;
+}

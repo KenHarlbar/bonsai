@@ -4,74 +4,275 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backstage Talks Magazine</title>
-    <link rel="stylesheet" href="build/style.css">
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <link rel="stylesheet" href="css/my-boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="build/header.css">
     <link rel="stylesheet" href="build/reset.css">
-    <link rel="stylesheet" href="build/at-media.css">
+    <link rel="stylesheet" href="build/pricing.css">
+    <link rel="stylesheet" href="build/addons.css">
+    <link rel="stylesheet" href="build/cta.css">
+    <link rel="stylesheet" href="build/faq.css">
+    <link rel="stylesheet" href="build/footer.css">
+    <link rel="stylesheet" href="build/at-screen.css">
+	<link rel="stylesheet" href="a11y_accordions/assets/css/aria.accordion.css">
+    <title>Bonsai - Pricing</title>
+
+    <script>
+        // remove no-js and add 'js' to the HTML
+        document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+</script>
 </head>
 <body class="body">
-    <h1 class="title">Backstage Talks</h1>
-    <p class="mail"><a href="mailto:kenharlbar@gmail.com">kenharlbar@gmail.com</a></p>
-    <div class="img" id="issue6">
-        <img src="images/backstagetalks_cover_issue_6.png" alt="" srcset="">
-        <p>Issue #6</p>
-        <a href="http://">buy here</a>
-        <p>or in <a href="http://">selected stores</a>.</p>
-    </div>
+    <header class="header">
+        <div class="logo">
+            <i class='bx bxl-500px bx-md'></i>
+            <h1 class="logo-text">Bonsai</h1>
+        </div>
 
-    <div class="img white" id="issue5">
-        <img src="images/backstagetalks_cover_issue_5.png" alt="" srcset="">
-        <p>Issue #5</p>
-        <a href="http://">buy here</a>
-        <p>or in <a href="http://">selected stores</a>.</p>
-    </div>
-
-    <div class="img white" id="issue4">
-        <img src="images/backstagetalks_cover_issue_4.png" alt="" srcset="">
-        <p>Issue #4</p>
-        <a href="http://">buy here</a>
-        <p>or in <a href="http://">selected stores</a>.</p>
-    </div>
-
-    <div class="img white" id="issue3">
-        <img src="images/backstagetalks_cover_issue_3.png" alt="" srcset="">
-        <p>Issue #3</p>
-        <a href="http://">buy here</a>
-        <p>or in <a href="http://">selected stores</a>.</p>
-    </div>
-
-    <div class="img white" id="issue2">
-        <img src="images/backstagetalks_cover2017.png" alt="" srcset="">
-        <p>Issue #2</p>
-        <a href="http://">buy here</a>
-        <p>or in <a href="http://">selected stores</a>.</p>
-    </div>
-
-    <div class="img white" id="issue1">
-        <img src="images/backstagetalks_cover2016_n.png" alt="" srcset="">
-        <p>Issue #1</p>
-        <a href="http://">buy here</a>
-        <p>or in <a href="http://">selected stores</a>.</p>
-    </div>
-
-    <div class="_4styling">
-        <div class="about">
-            <p>Backstage Talks is a magazine<br>of casual, but in depth dialogues<br>on design and business. Our decisions<br>shape and influence this complex<br>world—to have a chance to make the<br>right ones, we need to talk.</p>
-            <small>&copy; 2023 <a href="http://">Published by studio Milk</a></small>
-            <div class="flex-sm">
-                <a href="" class="privacy-policy">Privacy Policy</a>
-                <p class="visible"><a href="mailto:kenharlbar@gmail.com">kenharlbar@gmail.com</a></p>
+        <div class="links">
+            <button class="dropbtn">
+                <i class="bx bx-lg bx-menu"></i>
+            </button>
+            <div class="dropdown-content">
+                <nav class="navigations">
+                    <a href="http://">Product <i class="bx bx-chevron-down"></i></a>
+                    <a href="http://">Templates <i class="bx bx-chevron-down"></i></a>
+                    <a href="http://">Pricing</a>
+                    <a href="http://">Reviews</a>
+                </nav>
+    
+                <div class="enter">
+                    <button class="login">log in</button>
+                    <button class="signup">start free</button>
+                </div>
             </div>
         </div>
-    
-        <nav class="navigation">
-            <a href="#issue6">Issue #6</a>
-            <a href="#issue5">Issue #5</a>
-            <a href="#issue4">Issue #4</a>
-            <a href="#issue3">Issue #3</a>
-            <a href="#issue2">Issue #2</a>
-            <a href="#issue1">Issue #1</a>
-        </nav>
-    </div>
+    </header>
+
+    <main class="main">
+        <div class="pricing">
+            <section class="heading">
+                <h1 class="pricing-text">Plans & Pricing</h1>
+                <div class="toggle-container">
+                    <p class="info">2 months free!</p>
+                    <div class="toggle">
+                        <p class="monthly">monthly</p>
+                        <label for="" class="switch">
+                            <input type="checkbox" name="" id="myCheck" onclick="func(this)">
+                            <span class="slider round"></span>
+                        </label>
+                        <p class="yearly">yearly</p>
+                    </div>
+                </div>
+            </section>
+            <div class="pricing-cards">
+                <section class="workflow">
+                    <h1 class="text">workflow</h1>
+                    <p class="price"><span class="dollar">$</span><span class="number">19</span><span class="month">/month</span></p>
+                    <hr class="workflow-hr">
+                    <ul class="workflow-list">
+                        <li><i class='bx bx-check' ></i> Unlimited Clients & Projects</li>
+                        <li><i class='bx bx-check' ></i> Proposals</li>
+                        <li><i class='bx bx-check' ></i> Contracts</li>
+                        <li><i class='bx bx-check' ></i> Invoicing & Payments</li>
+                        <li><i class='bx bx-check' ></i> Client CRM</li>
+                        <li><i class='bx bx-check' ></i> Project Management</li>
+                        <li><i class='bx bx-check' ></i> Task & Time Tracking</li>
+                        <li><i class='bx bx-check' ></i> iOS, Android, Chrome, & Mac Apps</li>
+                    </ul>
+                    <button class="signup">start free</button>
+                </section>
+                <section class="workflow workflow-plus">
+                    <span class="most-popular">most popular</span>
+                    <h1 class="text">workflow plus</h1>
+                    <p class="price"><span class="dollar">$</span><span class="number">29</span><span class="month">/month</span></p>
+                    <hr class="workflow-hr">
+                    <ul class="workflow-list">
+                        <li><i class='bx bx-check' ></i> Everything in workflow, plus</li>
+                        <li><i class='bx bx-check' ></i> White-labelled client experience</li>
+                        <li><i class='bx bx-check' ></i> Client forms and questionaires <small class="new">new</small></li>
+                        <li><i class='bx bx-check' ></i> Workflow automations</li>
+                        <li><i class='bx bx-check' ></i> Subcontracting (client-mode)</li>
+                        <li><i class='bx bx-check' ></i> Calendly Integration</li>
+                        <li><i class='bx bx-check' ></i> Client portal</li>
+                        <li><i class='bx bx-check' ></i> Priority support</li>
+                    </ul>
+                    <button class="signup">start free</button>
+                </section>
+            </div>
+        </div>
+
+        <div class="addons-section">
+            <h2 class="addons-heading">Super charge your work with add-ons</h2>
+
+            <section class="addon addon1">
+                <div class="left">
+                    <h3 class="addon-title">collaborators</h3>
+                    <p class="addon-text">Invite other users to specific projects for limited access and functionality.</p>
+                </div>
+                <div class="right">
+                    <p class="right-price">free </p>
+                </div>
+            </section>
+            
+            <section class="addon addon2">
+                <div class="left">
+                    <h3 class="addon-title">partners</h3>
+                    <p class="addon-text">Invite other users for full account access and company management.</p>
+                </div>
+                <div class="right">
+                    <p class="right-price">$9</p>
+                    <p class="month">/month</p>
+                </div>
+            </section>
+            
+            <section class="addon addon3">
+                <div class="left">
+                    <h3 class="addon-title">bonsai tax</h3>
+                    <p class="addon-text">Track expenses, identify write-offs, and estimate quarterly taxes easily.</p>
+                    <a href="http://">learn more <i class="bx bx-chevron-right"></i></a>
+                </div>
+                <div class="right">
+                    <p class="right-price">$10</p>
+                    <p class="month">/month</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="cta">
+            <section class="container">
+                <div class="text">
+                    <h3 class="container-text">
+                        It's <span class="color">your</span> business.
+                        <br>
+                        We're here to help it grow.
+                    </h3>
+                </div>
+                <div class="btn">
+                    <button>start free</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-heading">frequently asked questions</h3>
+            <div class="accordion accrd" data-aria-accordion>
+                <p data-aria-accordion-heading>How does the 14 day free trial works?</p>
+                <div data-aria-accordion-panel>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure dolore aspernatur quas sit natus enim corrupti, reiciendis sunt neque facere fuga aperiam esse voluptate debitis facilis alias magnam reprehenderit eius?</p>
+                </div>
+            </div>
+            <div class="accordion accrd" data-aria-accordion>
+                <p data-aria-accordion-heading>Can I change plans anytime?</p>
+                <div data-aria-accordion-panel>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure dolore aspernatur quas sit natus enim corrupti, reiciendis sunt neque facere fuga aperiam esse voluptate debitis facilis alias magnam reprehenderit eius?</p>
+                </div>
+            </div>
+            <div class="accordion accrd" data-aria-accordion>
+                <p data-aria-accordion-heading>How do I pause my Bonsai subscription?</p>
+                <div data-aria-accordion-panel>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure dolore aspernatur quas sit natus enim corrupti, reiciendis sunt neque facere fuga aperiam esse voluptate debitis facilis alias magnam reprehenderit eius?</p>
+                </div>
+            </div>
+            <div class="accordion accrd" data-aria-accordion>
+                <p data-aria-accordion-heading>What is your refund policy?</p>
+                <div data-aria-accordion-panel>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure dolore aspernatur quas sit natus enim corrupti, reiciendis sunt neque facere fuga aperiam esse voluptate debitis facilis alias magnam reprehenderit eius?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <section class="section product">
+            <h5 class="heading">
+                product
+            </h5>
+            <nav class="links">
+                <a href="http://">Proposals</a>
+                <a href="http://">Contracts</a>
+                <a href="http://">Invoicing</a>
+                <a href="http://">Client CRM</a>
+                <a href="http://">Time Tracking</a>
+                <a href="http://">Task Tracking</a>
+                <a href="http://">Forms</a>
+                <a href="http://">Accounting</a>
+                <a href="http://">Bonsai Tax</a>
+                <a href="http://">Bonsai Cash</a>
+            </nav>
+
+            <div class="pricing">
+                <h6 class="heading">
+                    Pricing
+                </h6>
+                <nav class="links">
+                    <a href="http://">Bonsai Reviews</a>
+                </nav>
+            </div>
+        </section>
+
+        <section class="section resources">
+            <h5 class="heading">
+                free resources
+            </h5>
+            <nav class="links">
+                <a href="http://">Freelance Resources</a>
+                <a href="http://">Freelance Blog by Bonsai</a>
+                <a href="http://">How to Write a Contract</a>
+                <a href="http://">Online Signature Maker</a>
+                <br>
+                <a href="http://">Self-Employed Taxes Hub</a>
+                <a href="http://">Self-Employed Tax Calculator</a>
+                <a href="http://">Self-Employed Tax Deductions</a>
+            </nav>
+
+            <div class="templates">
+                <h6 class="heading">
+                    Templates
+                </h6>
+                <nav class="links">
+                    <a href="http://">Invoice Templates <i class="bx bx-sm bx-chevron-down"></i></a>
+                    <a href="http://">Proposal Templates <i class="bx bx-sm bx-chevron-down"></i></a>
+                    <a href="http://">Contract Templates <i class="bx bx-sm bx-chevron-down"></i></a>
+                    <a href="http://">Agreement Templates <i class="bx bx-sm bx-chevron-down"></i></a>
+                    <a href="http://">Scope of Work Templates <i class="bx bx-sm bx-chevron-down"></i></a>
+                    <a href="http://">Quote Templates <i class="bx bx-sm bx-chevron-down"></i></a>
+                    <a href="http://">Credit Note Templates</a>
+                    <a href="http://">Estimate Templates</a>
+                </nav>
+            </div>
+        </section>
+
+        <section class="section social">
+            <h5 class="heading">
+                bonsai
+            </h5>
+            <nav class="links">
+                <a href="http://">About</a>
+                <a href="http://">Careers</a>
+                <a href="http://">Support</a>
+                <a href="http://">LinkedIn</a>
+                <a href="http://">Twitter</a>
+                <a href="http://">Privacy Policy</a>
+                <a href="http://">Legal</a>
+                <br>
+                <a href="http://">Affiliates</a>
+                <a href="http://">Write for Us</a>
+                <br>
+                <a href="http://">Comparisons <i class="bx bx-sm bx-chevron-down"></i></a>
+            </nav>
+        </section>
+    </footer>
+
+    <script src="a11y_accordions/assets/js/aria.accordion.min.js"></script>
+    <script>
+        function func(elem) {
+            if (elem.checked) {
+                elem.checked = false;
+            } else {
+                elem.checked = true;
+            }
+        }
+    </script>
 </body>
 </html>

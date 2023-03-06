@@ -1,0 +1,16 @@
+.faq-heading {
+    font-size: 32px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00b289;
+}
+
+.faq {
+    padding: 0 100px;
+}
+
+.accrd p:first-child i {
+    font-size: 20px;
+    color: #000;
+}

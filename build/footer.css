@@ -1,0 +1,61 @@
+.footer {
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.footer .section .heading {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    padding: 0;
+}
+
+.footer .section .links,
+.footer .section .links a {
+    display: block;
+}
+
+.footer .section .links a {
+    color: #4c4d5f;
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.footer .product .pricing,
+.footer .resources .templates {
+    margin-top: 40px;
+    padding: 0;
+}
+
+.footer .product .pricing .heading,
+.footer .resources .templates .heading {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+} 
+
+.footer .product .pricing .heading {
+    color: #00b289;
+}
+
+.footer a i {
+    vertical-align: middle;
+}
+
+.footer .product {
+    flex: 4;
+}
+
+.footer .resources {
+    flex: 4;
+}
+
+.footer .social {
+    flex: 2;
+}
